@@ -16,4 +16,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose deployment prediction-app --type=LoadBalancer --port=8000 --target-port=3000
+kubectl expose deployment prediction-app --type=LoadBalancer --port=3000 --target-port=8000
